@@ -1,0 +1,367 @@
+/*
+Template Name:Estate
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* team_inner ****************/
+#team_inner{ 
+ background-image: url(../img/62.jpg);
+ padding-bottom: 180px;
+ padding-top: 180px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.team_inner_1{ 
+ background-color: #000000b5;
+ width: 38%;
+ text-align: center;
+ padding: 15px 20px 2px 15px;
+ }
+.team_inner_1 h2{ 
+ color: #cc935c;
+ font-weight:bold;
+ }
+.team_inner_1 i{ 
+ color: #fff;
+ padding-left:5px;
+ }
+.team_inner_1 p a{ 
+ color: #fff;
+ }
+.team_inner_1 p a:hover{ 
+ color: #cc935c;
+ }
+/********************* team_inner_end ****************/
+/********************* team_listing ****************/
+#team_listing{ 
+ padding-top:50px;
+ padding-bottom:0px;
+ }
+.team_listing_2 img{ 
+ border: 3px solid #CC935C;
+ }
+.team_listing_3 h4{ 
+ padding-bottom:10px;
+ }
+.team_listing_3 a{ 
+ color: #c36d19;
+ font-size: 20px;
+ }
+.team_listing_3 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:10px;
+ }
+.team_listing_3 ul{ 
+ padding-top:10px;
+ }
+.team_listing_3 li{ 
+ display:inline;
+ margin-right:10px;
+ }
+.team_listing_3 li a{ 
+ color:#000;
+ font-size:18px;
+ }
+.team_listing_3 li a:hover{ 
+ color:#CC935C;
+ }
+.team_listing_4 ul{ 
+ padding-top:10px;
+ }
+.team_listing_4 li{ 
+ display:inline;
+ margin-right:10px;
+ }
+.team_listing_4 li a{ 
+ color:#CC935C;
+ font-size:25px;
+ }
+.team_listing_4 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:5px;
+ }
+/********************* team_listing_end ****************/
+/********************* our ****************/
+#our{ 
+ padding-top: 30px;
+ padding-bottom: 50px;
+ }
+.our_1 h3{ 
+ padding-bottom:10px;
+ padding-top:20px;
+ }
+.our_2{ 
+ text-align:center;
+ padding-top: 40px;
+ }
+.our_2 p{ 
+ padding-top:12px;
+ padding-bottom:20px;
+ }
+.our_3{ 
+ text-align:center;
+ padding-top:20px;
+ }
+.our_5{ 
+ background-color:#000;
+ padding:10px 10px 10px 10px;
+ }
+.our_5 h4 a{ 
+ color:#CC935C;
+ }
+.our_5 p{ 
+ padding: 0px;
+ margin: 0px;
+ padding-bottom:0px;
+ color:#fff;
+ }
+.our_6{ 
+ background-color:#000;
+ width:70%;
+ margin:auto;
+ }
+.our_6 li{  
+ display:inline;
+ padding-right:12px;
+ }
+.our_6 li a{  
+ color:#fff;
+ }
+.our_6 li a:hover{  
+ color:#CC935C;
+ }
+.our_6 p{  
+ color:#fff;
+ padding-top:5px;
+ }
+.our_1 h2 a{ 
+ color:#CC935C;
+ }
+.our_main{ 
+ padding-top: 30px;
+ padding-bottom: 50px;
+ }
+.our_main_1{ 
+ padding-bottom:10px;
+ }
+.our_7 ul{ 
+ text-align:center;
+ }
+.our_7 ul{ 
+ text-align:center;
+ padding-top:40px;
+ }
+.our_7 li{ 
+ display:inline;
+ }
+.our_7 li a{ 
+ border: 1px solid #cc935c;
+ background-color: #CC935C;
+ color: #ffffff;
+ padding:12px;
+ }
+.our_7 li a:hover{ 
+ border: 1px solid #000;
+ background-color: #000;
+ color: #ffffff;
+ }
+/********************* our_end ****************/
+/********************* news ****************/
+#news{ 
+ background-image: url(../img/15.jpg);
+ background-size:cover;
+ }
+.news_main{ 
+ padding-bottom: 100px;
+ padding-top: 100px;
+ background-color: #00000073;
+ }
+.news_2{ 
+ text-align:center;
+ }
+.news_2 h2{ 
+ color:#fff;
+ }
+.news_2 h2 a{ 
+ color: #CC935C;
+ }
+.news_2 p{ 
+ color: #fff;
+ padding-bottom:20px;
+ }
+ 
+#news .dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+#news .input-group-btn .btn-group {
+    display: flex !important;
+}
+#news .btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+#news .btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#news .btn-primary {
+ color: #fff;
+ background-color: #cc935c;
+ border:1px solid #cc935c!important;
+}
+#news .form-control {
+ color: #fff;
+ background-color: #0e0e0e7d;
+ border: 1px solid #adaeaf;
+}
+#news .form-control::placeholder {
+ color: #fff;
+}
+#news .btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#news .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+#news .form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+#news .dropdown.dropdown-lg {
+        position: static !important;
+    }
+#news .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+#news button {
+    margin-top: 0px;
+}
+#news .input-group .form-control:first-child{ 
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }
+/********************* news_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#team_inner {
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+.team_inner_1 {
+ width: 80%;
+}
+.team_inner_1 h2 {
+ font-size: 30px;
+}
+.team_inner_1 p a {
+ font-size: 16px;
+}
+#team_listing {
+ padding-top: 30px;
+ padding-bottom: 0px;
+ text-align: center;
+}
+.team_listing_3 h4 {
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+.our_1 h3 {
+ padding-top: 0px;
+}
+#our {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+#team_inner {
+ padding-bottom: 70px;
+ padding-top: 70px;
+}
+.team_inner_1 h2 {
+ font-size: 30px;
+}
+.our_5 h4 a {
+ font-size: 20px;
+}
+.our_5 p {
+ font-size: 17px;
+}
+.our_6 {
+ width: 90%;
+}
+.news_main {
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+#adv-search {
+ width: 350px;
+}
+#our {
+ padding-top: 0px;
+ padding-bottom: 20px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+#team_inner {
+ padding-bottom: 70px;
+ padding-top: 70px;
+}
+.team_inner_1 h2 {
+ font-size: 30px;
+}
+.our_5 h4 a {
+ font-size: 20px;
+}
+.our_5 p {
+ font-size: 17px;
+}
+.our_6 {
+ width: 90%;
+}
+.news_main {
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+#adv-search {
+ width: 350px;
+}
+#our {
+ padding-top: 0px;
+ padding-bottom: 20px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
